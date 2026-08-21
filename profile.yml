@@ -7,8 +7,9 @@ platforms:
   tryhackme:
     username: famous33
     profile_url: https://tryhackme.com/p/famous33
+
   letsdefend:
-    # Verify this is your exact public profile URL.
+    username: PrasiddhaPal
     profile_url: https://app.letsdefend.io/user/PrasiddhaPal
 
 profile:
@@ -27,4 +28,4 @@ links:
   linkedin: https://www.linkedin.com/in/prasiddha-pal
   medium: https://medium.com/@prasiddhapal
   tryhackme: https://tryhackme.com/p/famous33
-  letsdefend:https://app.letsdefend.io/user/PrasiddhaPal
+  letsdefend: https://app.letsdefend.io/user/PrasiddhaPal
