@@ -125,3 +125,23 @@ DETECTION
 ANALYST ASSESSMENT
   ↓
 RESPONSE
+---
+
+## 📊 SOC JOURNEY
+
+| Stage | Focus | Status |
+|---|---|---|
+| Days 01–06 | Linux Security Foundations | 🟢 Complete |
+| Days 07–10 | Network & Host Security | 🟢 Complete |
+| Days 11–19 | Linux Investigation | 🟢 Complete |
+| Day 20 | Phishing Investigation | 🟢 Complete |
+| Day 21 | SOC Alert Triage | 🟢 Complete |
+| Day 22 | Windows Event Investigation | 🟢 Complete |
+| Days 23–28 | SIEM & Detection Engineering | 🟢 Complete |
+
+### Current Focus
+
+`SOC Investigation` → `Threat Detection` → `Detection Engineering`
+→ `Context Enrichment` → `Risk Scoring` → `Security Automation`
+
+---
