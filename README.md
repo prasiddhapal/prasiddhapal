@@ -140,6 +140,27 @@ RESPONSE
 | Days 23–28 | SIEM & Detection Engineering | 🟢 Complete |
 
 ### Current Focus
+---
+
+## 🛰️ SECURITY OPERATIONS DASHBOARD
+
+| 🛡️ SOC INVESTIGATIONS | 🔎 THREAT DETECTION | 📊 DETECTION ENGINEERING | ⚡ AUTOMATION |
+|---|---|---|---|
+| 28+ Cases | Active | Splunk / SIEM | Python / AI |
+| Phishing Analysis | Threat Hunting | Context-Aware Detection | Security Tooling |
+| Alert Triage | IOC Analysis | Risk Scoring | Workflow Automation |
+
+### 📡 Investigation Coverage
+
+```text
+LINUX SECURITY       ████████████████████  COMPLETE
+NETWORK INVESTIGATION ████████████████████  COMPLETE
+WINDOWS SECURITY      ████████████████████  COMPLETE
+SOC INVESTIGATION     ████████████████████  COMPLETE
+SIEM ANALYSIS         ████████████████████  COMPLETE
+THREAT DETECTION      ████████████████████  COMPLETE
+DETECTION ENGINEERING ████████████████████  COMPLETE
+SECURITY AUTOMATION   ████████████░░░░░░░░  IN PROGRESS
 
 `SOC Investigation` → `Threat Detection` → `Detection Engineering`
 → `Context Enrichment` → `Risk Scoring` → `Security Automation`
