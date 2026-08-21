@@ -98,3 +98,30 @@ Security scanning and analysis tooling focused on identifying security-relevant 
 </table>
 
 ---
+---
+
+## 🧠 SOC CAPABILITY MATRIX
+
+| 🛰️ SOC OPERATIONS | 🔍 INVESTIGATION | 🛡️ DETECTION | 🌐 THREAT ANALYSIS |
+|---|---|---|---|
+| Alert Triage | Log Analysis | Splunk | Network Investigation |
+| Incident Response | Process Analysis | Detection Engineering | IOC Analysis |
+| Case Documentation | Authentication Analysis | Risk Scoring | Threat Hunting |
+| Evidence Correlation | Windows Events | Context Enrichment | Phishing Investigation |
+
+### 🔬 Investigation Methodology
+
+```text
+ALERT
+  ↓
+TRIAGE
+  ↓
+EVIDENCE
+  ↓
+CORRELATION
+  ↓
+DETECTION
+  ↓
+ANALYST ASSESSMENT
+  ↓
+RESPONSE
