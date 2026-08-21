@@ -164,5 +164,53 @@ SECURITY AUTOMATION   ████████████░░░░░░░�
 
 `SOC Investigation` → `Threat Detection` → `Detection Engineering`
 → `Context Enrichment` → `Risk Scoring` → `Security Automation`
+---
+
+## 🚨 FEATURED SOC CASES
+
+| Case | Investigation | Skills Demonstrated |
+|---|---|---|
+| 📨 **SOC-020** | Phishing Investigation | Email Analysis · IOC Extraction · Network Correlation |
+| 🌐 **SOC-021** | Alert Triage & Network Investigation | Alert Triage · DNS · Process Analysis |
+| 🪟 **SOC-022** | Windows Event Investigation | Event Logs · Authentication · Process Correlation |
+| 📊 **SOC-023** | Splunk Investigation | SIEM · Log Analysis · Investigation Timeline |
+| 🎯 **SOC-024** | Splunk Detection | Detection Engineering · Validation |
+| 🔐 **SOC-026** | Authentication Hunting | Authentication Analysis · Threat Hunting |
+| 🧠 **SOC-028** | Context-Aware Detection | PowerShell · Risk Scoring · Detection Engineering |
+
+### Investigation Evidence
+
+Each case follows a consistent analyst workflow:
+
+`Alert → Evidence → Investigation → Correlation → Assessment → Response`
+
+📁 [Explore the complete SOC Journey](https://github.com/prasiddhapal/SOC_journey)
+
+---
+---
+
+## 🧰 SECURITY TOOLKIT
+
+### 🖥️ Systems & Network
+`Linux` `Windows` `TCP/IP` `DNS` `HTTP/S` `SSH` `Firewalls`
+
+### 🔎 SOC & Investigation
+`SIEM` `Splunk` `Log Analysis` `Alert Triage`
+`Threat Hunting` `IOC Analysis` `Incident Investigation`
+
+### 🎯 Detection Engineering
+`Detection Logic` `Correlation` `Risk Scoring`
+`Context Enrichment` `False-Positive Analysis`
+`Detection Validation`
+
+### 🛠️ Security Tools
+`Wireshark` `Nmap` `Git` `Python`
+
+### ⚡ Automation & AI
+`Python Automation` `Security Workflows`
+`AI-Assisted Investigation` `Security Tooling`
+
+---
+
 
 ---
