@@ -235,15 +235,50 @@ Security scanning and analysis tooling.
 <div align="center">
 
 <a href="https://github.com/prasiddhapal">
-<img src="https://github-readme-stats.vercel.app/api?username=prasiddhapal&show_icons=true&hide_border=true&bg_color=07111F&title_color=00D9FF&text_color=C9D1D9&icon_color=00FF88&include_all_commits=true&count_private=true" width="48%">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=prasiddhapal&show_icons=true&hide_border=true&bg_color=07111F&title_color=00D9FF&text_color=C9D1D9&icon_color=00FF88&include_all_commits=true"
+    width="49%"
+    alt="Prasiddha Pal GitHub Stats"
+  />
 </a>
+
 <a href="https://github.com/prasiddhapal">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasiddhapal&layout=compact&hide_border=true&bg_color=07111F&title_color=00D9FF&text_color=C9D1D9&langs_count=8" width="48%">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasiddhapal&layout=compact&hide_border=true&bg_color=07111F&title_color=00D9FF&text_color=C9D1D9&langs_count=8"
+    width="49%"
+    alt="Top Languages"
+  />
 </a>
 
 <br><br>
 
-<img src="./assets/github-contribution-grid-snake.svg" alt="Animated GitHub contribution graph" width="100%">
+<a href="https://github.com/prasiddhapal">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=prasiddhapal&theme=dark&hide_border=true&background=07111F&ring=00D9FF&fire=FF4D00&currStreakLabel=00FF88&sideLabels=C9D1D9&dates=8B949E"
+    width="70%"
+    alt="GitHub Contribution Streak"
+  />
+</a>
+
+<br><br>
+
+### 🐍 CONTRIBUTION ACTIVITY
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg"
+    width="100%"
+    alt="GitHub contribution snake animation"
+  />
+</picture>
 
 </div>
 
