@@ -277,11 +277,24 @@ Security scanning and analysis tooling.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=prasiddhapal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=FFFFFF" width="48%">
+### 🟢 BUILD · INVESTIGATE · DOCUMENT
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasiddhapal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C050FF&text_color=FFFFFF" width="42%">
+| Focus | Activity |
+|:---:|:---:|
+| 🛡️ Security Labs | 28+ investigations |
+| 🔎 Detection | Splunk / SIEM |
+| 🎯 Threat Hunting | Active |
+| 🐍 Automation | Python / Security Tooling |
+
+<br>
+
+<a href="https://github.com/prasiddhapal">
+<img src="https://img.shields.io/badge/VIEW_GITHUB_ACTIVITY-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF">
+</a>
 
 </div>
+
+> GitHub contribution activity, repositories, commits, and languages are available directly on the profile.
 
 ---
 
