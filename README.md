@@ -15,3 +15,19 @@
 > Building practical cybersecurity investigations, detections, and security tooling.
 
 </div>
+<div align="center">
+
+| 🛡️ **SOC INVESTIGATIONS** | 🔎 **THREAT DETECTION** | 📊 **DETECTION ENGINEERING** | ⚡ **SECURITY AUTOMATION** |
+|:---:|:---:|:---:|:---:|
+| **28+** | **Active** | **Splunk / SIEM** | **Python / AI** |
+| Practical Cases | Hunting & Analysis | Context-Aware Detection | Security Tooling |
+
+</div>
+
+---
+
+## 🛰️ SECURITY OPERATIONS
+
+**Alert Triage** → **Evidence Collection** → **Investigation** → **Correlation** → **Detection** → **Analyst Assessment** → **Response**
+
+---
