@@ -143,9 +143,6 @@ RESPONSE
 
 <br>
 
-### `ALERT → TRIAGE → EVIDENCE → CORRELATION → DETECTION → RISK → RESPONSE`
-
-</div>─┘
 ```
 
 
