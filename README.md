@@ -131,53 +131,26 @@ RESPONSE
 
 <div align="center">
 
-```text
-       ┌──────────────┐
-       │     ALERT    │
-       └──────┬───────┘
-              ↓
-       ┌──────────────┐
-       │    TRIAGE    │
-       └──────┬───────┘
-              ↓
-       ┌──────────────┐
-       │   EVIDENCE   │
-       └──────┬───────┘
-              ↓
-       ┌──────────────┐
-       │ CORRELATION  │
-       └──────┬───────┘
-              ↓
-       ┌──────────────┐
-       │  DETECTION   │
-       └──────┬───────┘
-              ↓
-       ┌──────────────┐
-       │ RISK REVIEW  │
-       └──────┬───────┘
-              ↓
-       ┌──────────────┐
-       │   RESPONSE   │
-       └──────────────┘
+<a href="https://github.com/prasiddhapal/prasiddhapal/blob/main/assets/soc-pipeline.svg">
+
+<img
+  src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/main/assets/soc-pipeline.svg"
+  width="100%"
+  alt="Animated SOC Investigation Pipeline"
+/>
+
+</a>
+
+<br>
+
+### `ALERT → TRIAGE → EVIDENCE → CORRELATION → DETECTION → RISK → RESPONSE`
+
+</div>─┘
 ```
 
-</div>
 
----
 
-## 🏆 SECURITY ACHIEVEMENTS
 
-<div align="center">
-
-### ⚔️ TRIVARNA CTF 2026
-
-**🏆 Rank #77 / 830 Participants**
-
-**🎯 35 Challenges Solved**
-
-`Web Security` · `Forensics` · `OSINT` · `Cryptography` · `Reverse Engineering`
-
-</div>
 
 ---
 
