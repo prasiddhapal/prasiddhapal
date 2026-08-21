@@ -1,3 +1,54 @@
+<div align="center">
+
+# 🛡️ PRASIDDHA PAL
+
+### `CYBERSECURITY` · `SOC` · `THREAT DETECTION`
+
+**SOC Operations · Threat Hunting · Detection Engineering · Incident Response**
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prasiddhapal)
+[![TryHackMe](https://img.shields.io/badge/TRYHACKME-TOP%201%25-88CC14?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/famous33)
+[![LetsDefend](https://img.shields.io/badge/LETSDEFEND-SOC-00D9FF?style=for-the-badge)](https://app.letsdefend.io/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prasiddha-pal)
+[![Medium](https://img.shields.io/badge/MEDIUM-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@prasiddhapal)
+
+</div>
+
+---
+
+<div align="center">
+
+## ⚡ SECURITY PROFILE
+
+![SOC Cases](https://img.shields.io/badge/🛡️_SOC_CASES-28%2B-00D9FF?style=for-the-badge)
+![TryHackMe](https://img.shields.io/badge/🎯_THM-TOP_1%25-9FEF00?style=for-the-badge)
+![LetsDefend](https://img.shields.io/badge/🛡️_LET'S_DEFEND-SOC-8B5CF6?style=for-the-badge)
+![CTF](https://img.shields.io/badge/⚔️_TRIVARNA-#77%2F830-FF6B35?style=for-the-badge)
+
+</div>
+
+---
+
+## 👨‍💻 whoami
+
+Cybersecurity practitioner focused on **SOC operations, threat detection, investigation, and security tooling**.
+
+I turn security telemetry into:
+
+```text
+Evidence → Context → Detection → Decision
+🔐 Core Areas
+
+SOC SIEM Splunk Threat Hunting Incident Response
+
+Windows Linux Network Security IOC Analysis
+
+Python Security Automation AI/ML
+
+🔥 SECURITY PLATFORMS
+<div align="center"> <table> <tr> <th>🎯 TryHackMe</th> <th>🛡️ LetsDefend</th> </tr> <tr> <td align="center"> <img src="./assets/thm-stats.svg" width="420"> <br> <a href="https://tryhackme.com/p/famous33"> View TryHackMe Profile → </a> </td> <td align="center"> <img src="./assets/letsdefend-stats.svg" width="420"> <br> <a href="https://app.letsdefend.io/"> View LetsDefend Profile → </a> </td> </tr> </table> </div>
 🚨 SECURITY OPERATIONS
                          ┌──────────────┐
                          │     ALERT    │
