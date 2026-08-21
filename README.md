@@ -1,216 +1,74 @@
-<div align="center">
+# 🛡️ Prasiddha Pal
 
-# 🛡️ PRASIDDHA PAL
+### SOC Analyst · Threat Detection · Detection Engineering
 
-### Cybersecurity Practitioner
-
-**SOC Operations · Threat Detection · Incident Response · Security Automation**
-
-<br>
-
-`SOC ANALYST` · `THREAT HUNTING` · `DETECTION ENGINEERING` · `SECURITY AUTOMATION`
-
-<br><br>
-
-> Building practical cybersecurity investigations, detections, and security tooling.
-
-</div>
-<div align="center">
-
-| 🛡️ **SOC INVESTIGATIONS** | 🔎 **THREAT DETECTION** | 📊 **DETECTION ENGINEERING** | ⚡ **SECURITY AUTOMATION** |
-|:---:|:---:|:---:|:---:|
-| **28+** | **Active** | **Splunk / SIEM** | **Python / AI** |
-| Practical Cases | Hunting & Analysis | Context-Aware Detection | Security Tooling |
-
-</div>
+I build practical cybersecurity investigations, detections, and security
+tools across Linux, Windows, networks, and SIEM environments.
 
 ---
 
-## 🛰️ SECURITY OPERATIONS
+## 🧭 What I Work On
 
-**Alert Triage** → **Evidence Collection** → **Investigation** → **Correlation** → **Detection** → **Analyst Assessment** → **Response**
+🛡️ Security Operations  
+🎯 Threat Detection & Hunting  
+📊 Detection Engineering  
+🔎 Incident Investigation  
+⚡ Security Automation  
+🤖 AI-assisted Security
 
 ---
----
 
-## 🚨 FEATURED SECURITY OPERATIONS
-
-<table>
-<tr>
-<td width="50%">
+## 🚀 Selected Work
 
 ### 🛡️ SOC Journey
+28+ practical SOC investigations covering alert triage, phishing,
+Windows events, authentication, network investigation, Splunk,
+and detection engineering.
 
-**28+ practical security investigations**
-
-`Linux` `Windows` `Network` `SIEM` `Splunk`
-
-Alert triage, authentication analysis, threat hunting, phishing investigation, detection engineering, and incident investigation.
-
-**[→ Explore SOC Journey](https://github.com/prasiddhapal/SOC_Journey)**
-
-</td>
-
-<td width="50%">
-
-### 🤖 AI Fraud Detection
-
-**Machine Learning + Cybersecurity**
-
-`Python` `Jupyter` `ML` `Security`
-
-Financial transaction analysis using machine-learning techniques to identify potentially fraudulent activity.
-
-**[→ Explore Project](https://github.com/prasiddhapal/AI-Fraud-Detection-in-Financial-Transactions-)**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
+**→ [Explore SOC Journey](...)**
 
 ### 🔐 SentinelShield
-
-**Advanced Intrusion Detection**
-
-`Security` `Detection` `Web`
-
 Security-focused detection and web protection project.
 
-**[→ Explore Project](https://github.com/prasiddhapal/SentinelShield)**
+**→ [Explore Project](...)**
 
-</td>
+### 🤖 AI Fraud Detection
+Machine-learning based financial transaction analysis.
 
-<td width="50%">
+**→ [Explore Project](...)**
 
-### 🌐 Utkri / SecScan
+### 🌐 SecScan
+Security scanning and analysis tooling built with Python/FastAPI.
 
-**Security Scanning & Analysis**
-
-`Python` `FastAPI` `Security`
-
-Security scanning and analysis tooling focused on identifying security-relevant findings.
-
-**[→ Explore Project](https://github.com/prasiddhapal/Utkri-SecScan)**
-
-</td>
-</tr>
-</table>
-
----
----
-
-## 🧠 SOC CAPABILITY MATRIX
-
-| 🛰️ SOC OPERATIONS | 🔍 INVESTIGATION | 🛡️ DETECTION | 🌐 THREAT ANALYSIS |
-|---|---|---|---|
-| Alert Triage | Log Analysis | Splunk | Network Investigation |
-| Incident Response | Process Analysis | Detection Engineering | IOC Analysis |
-| Case Documentation | Authentication Analysis | Risk Scoring | Threat Hunting |
-| Evidence Correlation | Windows Events | Context Enrichment | Phishing Investigation |
-
-### 🔬 Investigation Methodology
-
-```text
-ALERT
-  ↓
-TRIAGE
-  ↓
-EVIDENCE
-  ↓
-CORRELATION
-  ↓
-DETECTION
-  ↓
-ANALYST ASSESSMENT
-  ↓
-RESPONSE
----
-
-## 📊 SOC JOURNEY
-
-| Stage | Focus | Status |
-|---|---|---|
-| Days 01–06 | Linux Security Foundations | 🟢 Complete |
-| Days 07–10 | Network & Host Security | 🟢 Complete |
-| Days 11–19 | Linux Investigation | 🟢 Complete |
-| Day 20 | Phishing Investigation | 🟢 Complete |
-| Day 21 | SOC Alert Triage | 🟢 Complete |
-| Day 22 | Windows Event Investigation | 🟢 Complete |
-| Days 23–28 | SIEM & Detection Engineering | 🟢 Complete |
-
-### Current Focus
----
-
-## 🛰️ SECURITY OPERATIONS DASHBOARD
-
-| 🛡️ SOC INVESTIGATIONS | 🔎 THREAT DETECTION | 📊 DETECTION ENGINEERING | ⚡ AUTOMATION |
-|---|---|---|---|
-| 28+ Cases | Active | Splunk / SIEM | Python / AI |
-| Phishing Analysis | Threat Hunting | Context-Aware Detection | Security Tooling |
-| Alert Triage | IOC Analysis | Risk Scoring | Workflow Automation |
-
-### 📡 Investigation Coverage
-
-```text
-LINUX SECURITY       ████████████████████  COMPLETE
-NETWORK INVESTIGATION ████████████████████  COMPLETE
-WINDOWS SECURITY      ████████████████████  COMPLETE
-SOC INVESTIGATION     ████████████████████  COMPLETE
-SIEM ANALYSIS         ████████████████████  COMPLETE
-THREAT DETECTION      ████████████████████  COMPLETE
-DETECTION ENGINEERING ████████████████████  COMPLETE
-SECURITY AUTOMATION   ████████████░░░░░░░░  IN PROGRESS
-
-`SOC Investigation` → `Threat Detection` → `Detection Engineering`
-→ `Context Enrichment` → `Risk Scoring` → `Security Automation`
----
-
-## 🚨 FEATURED SOC CASES
-
-| Case | Investigation | Skills Demonstrated |
-|---|---|---|
-| 📨 **SOC-020** | Phishing Investigation | Email Analysis · IOC Extraction · Network Correlation |
-| 🌐 **SOC-021** | Alert Triage & Network Investigation | Alert Triage · DNS · Process Analysis |
-| 🪟 **SOC-022** | Windows Event Investigation | Event Logs · Authentication · Process Correlation |
-| 📊 **SOC-023** | Splunk Investigation | SIEM · Log Analysis · Investigation Timeline |
-| 🎯 **SOC-024** | Splunk Detection | Detection Engineering · Validation |
-| 🔐 **SOC-026** | Authentication Hunting | Authentication Analysis · Threat Hunting |
-| 🧠 **SOC-028** | Context-Aware Detection | PowerShell · Risk Scoring · Detection Engineering |
-
-### Investigation Evidence
-
-Each case follows a consistent analyst workflow:
-
-`Alert → Evidence → Investigation → Correlation → Assessment → Response`
-
-📁 [Explore the complete SOC Journey](https://github.com/prasiddhapal/SOC_journey)
-
----
----
-
-## 🧰 SECURITY TOOLKIT
-
-### 🖥️ Systems & Network
-`Linux` `Windows` `TCP/IP` `DNS` `HTTP/S` `SSH` `Firewalls`
-
-### 🔎 SOC & Investigation
-`SIEM` `Splunk` `Log Analysis` `Alert Triage`
-`Threat Hunting` `IOC Analysis` `Incident Investigation`
-
-### 🎯 Detection Engineering
-`Detection Logic` `Correlation` `Risk Scoring`
-`Context Enrichment` `False-Positive Analysis`
-`Detection Validation`
-
-### 🛠️ Security Tools
-`Wireshark` `Nmap` `Git` `Python`
-
-### ⚡ Automation & AI
-`Python Automation` `Security Workflows`
-`AI-Assisted Investigation` `Security Tooling`
+**→ [Explore Project](...)**
 
 ---
 
+## 🧰 Security Stack
+
+**SIEM / Detection**
+Splunk · SIEM · Detection Engineering
+
+**Security**
+Threat Hunting · Incident Response · Network Analysis · IOC Analysis
+
+**Systems**
+Linux · Windows · TCP/IP · DNS · HTTP/S · SSH
+
+**Engineering**
+Python · FastAPI · Git · Automation · AI/ML
 
 ---
+
+## 📈 Current Focus
+
+Building toward:
+
+**SOC Operations → Threat Hunting → Detection Engineering
+→ Security Automation**
+
+---
+
+## 📫 Connect
+
+[LinkedIn] · [Medium] · [GitHub]
