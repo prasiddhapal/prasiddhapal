@@ -90,11 +90,15 @@ RESPONSE
 <div align="center">
 
 <a href="https://tryhackme.com/p/famous33">
-<img src="./assets/tryhackme-card.svg" width="48%" alt="TryHackMe">
+<img src="./assets/tryhackme-card.gif"
+     width="49%"
+     alt="TryHackMe Profile">
 </a>
 
 <a href="https://app.letsdefend.io/user/PrasiddhaPal">
-<img src="./assets/letsdefend-card.svg" width="48%" alt="LetsDefend">
+<img src="./assets/letsdefend-card.gif"
+     width="49%"
+     alt="LetsDefend Profile">
 </a>
 
 </div>
