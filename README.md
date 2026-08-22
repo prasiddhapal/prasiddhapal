@@ -13,7 +13,7 @@
 
 <br>
 
-<a href="https://github.com/prasiddhapal"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF"></a> <a href="https://tryhackme.com/p/famous33"><img src="https://img.shields.io/badge/TRYHACKME-TOP%201%25-0D1117?style=for-the-badge&logo=tryhackme&logoColor=00FF88"></a> <a href="https://app.letsdefend.io/user/Prasiddha-Pal"><img src="https://img.shields.io/badge/LETSDEFEND-SOC-0D1117?style=for-the-badge&logoColor=00D9FF"></a> <a href="https://www.linkedin.com/in/prasiddha-pal"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF"></a> <a href="https://medium.com/@prasiddhapal"><img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF"></a>
+<a href="https://github.com/prasiddhapal"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"></a> <a href="https://tryhackme.com/p/famous33"><img src="https://img.shields.io/badge/TRYHACKME-TOP%201%25-0D1117?style=for-the-badge&logo=tryhackme&logoColor=00FF88" alt="TryHackMe"></a> <a href="https://app.letsdefend.io/user/Prasiddha-Pal"><img src="https://img.shields.io/badge/LETSDEFEND-SOC-0D1117?style=for-the-badge&logoColor=00D9FF" alt="LetsDefend"></a> <a href="https://www.linkedin.com/in/prasiddha-pal"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF" alt="LinkedIn"></a> <a href="https://medium.com/@prasiddhapal"><img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF" alt="Medium"></a>
 
 </div>
 
@@ -33,6 +33,7 @@
 
 <table>
 <tr>
+
 <td width="55%">
 
 ```text
@@ -57,8 +58,6 @@ I build practical cybersecurity investigations, detections, and security tooling
 
 <td width="45%" align="center">
 
-<td width="42%" align="center">
-
 ### 🧠 ANALYST APPROACH
 
 ```text
@@ -78,6 +77,7 @@ DECIDE
 **Evidence → Context → Risk → Decision**
 
 </td>
+
 </tr>
 </table>
 
@@ -85,44 +85,27 @@ DECIDE
 
 ## 🔥 PLATFORM COMMAND CENTRE
 
-## 🌐 SECURITY PLATFORMS
+### 🌐 SECURITY PLATFORMS
 
 <div align="center">
 
 <a href="https://tryhackme.com/p/famous33">
-<img src="./assets/tryhackme-card.gif"
-     width="49%"
-     alt="TryHackMe Profile">
+<img
+  src="./assets/tryhackme-card.gif"
+  width="49%"
+  alt="TryHackMe Profile">
 </a>
 
-<a href="https://app.letsdefend.io/user/PrasiddhaPal">
-<img src="./assets/letsdefend-card.gif"
-     width="49%"
-     alt="LetsDefend Profile">
+<a href="https://app.letsdefend.io/user/Prasiddha-Pal">
+<img
+  src="./assets/letsdefend-card.gif"
+  width="49%"
+  alt="LetsDefend Profile">
 </a>
 
 </div>
 
-## 🧰 SECURITY TOOLKIT
-
-<div align="center">
-
-![Linux](https://img.shields.io/badge/Linux-07111F?style=for-the-badge&logo=linux&logoColor=00FF88)
-![Windows](https://img.shields.io/badge/Windows-07111F?style=for-the-badge&logo=windows&logoColor=00D9FF)
-![Splunk](https://img.shields.io/badge/Splunk-07111F?style=for-the-badge&logo=splunk&logoColor=00D9FF)
-![SIEM](https://img.shields.io/badge/SIEM-07111F?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-07111F?style=for-the-badge&logo=python&logoColor=FFD43B)
-![PowerShell](https://img.shields.io/badge/PowerShell-07111F?style=for-the-badge&logo=powershell&logoColor=00D9FF)
-![Wireshark](https://img.shields.io/badge/Wireshark-07111F?style=for-the-badge&logo=wireshark&logoColor=00D9FF)
-![Nmap](https://img.shields.io/badge/Nmap-07111F?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-07111F?style=for-the-badge&logo=git&logoColor=FF6B35)
-![FastAPI](https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge&logo=fastapi&logoColor=00FF88)
-
-<br>
-
-`SOC` · `Threat Hunting` · `Detection Engineering` · `Incident Response` · `IOC Analysis` · `Security Automation` · `AI/ML`
-
-</div>
+---
 
 ## 🧰 SECURITY TOOLKIT
 
@@ -139,7 +122,9 @@ DECIDE
 ![Git](https://img.shields.io/badge/Git-07111F?style=for-the-badge\&logo=git\&logoColor=FF6B35)
 ![FastAPI](https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge\&logo=fastapi\&logoColor=00FF88)
 
-`SOC` `Threat Hunting` `Detection Engineering` `Incident Response` `IOC Analysis` `Security Automation` `AI/ML`
+<br>
+
+`SOC` · `Threat Hunting` · `Detection Engineering` · `Incident Response` · `IOC Analysis` · `Security Automation` · `AI/ML`
 
 </div>
 
@@ -153,18 +138,18 @@ DECIDE
 <img
   src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/main/assets/soc-pipeline.svg"
   width="100%"
-  alt="Animated SOC Investigation Pipeline"
-/>
+  alt="SOC Investigation Pipeline">
 </a>
 
 </div>
 
-
+---
 
 ## 🛡️ FEATURED SECURITY WORK
 
 <table>
 <tr>
+
 <td width="50%">
 
 ### 🔐 SOC Journey
@@ -186,9 +171,11 @@ Machine-learning-based financial transaction analysis.
 `Python` · `Jupyter` · `Machine Learning`
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%">
 
 ### 🛡️ SentinelShield
@@ -208,6 +195,7 @@ Security scanning and analysis tooling.
 `Python` · `FastAPI` · `Security`
 
 </td>
+
 </tr>
 </table>
 
@@ -233,17 +221,14 @@ Security scanning and analysis tooling.
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg"
-  />
+    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg">
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg"
-  />
+    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg">
   <img
     src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg"
     width="100%"
-    alt="GitHub contribution activity"
-  />
+    alt="GitHub contribution activity">
 </picture>
 
 </a>
@@ -273,7 +258,9 @@ Security scanning and analysis tooling.
 <div align="center">
 
 `SOC INVESTIGATION` → `THREAT HUNTING` → `DETECTION ENGINEERING`
+
 ↓
+
 `CONTEXT ENRICHMENT` → `RISK ANALYSIS` → `SECURITY AUTOMATION`
 
 </div>
