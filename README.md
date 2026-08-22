@@ -311,6 +311,9 @@ DOCUMENTATION
 
 <br>
 
-`// command centre online`
-
+</a>
+<img
+  src="https://img.shields.io/badge/●%20COMMAND%20CENTRE-ONLINE-07111F?style=for-the-badge&labelColor=07111F&color=00FF88"
+  alt="Command Centre Online"
+/>
 </div>
