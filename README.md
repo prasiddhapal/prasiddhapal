@@ -14,6 +14,12 @@
 <br>
 
 <a href="https://github.com/prasiddhapal"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"></a> <a href="https://tryhackme.com/p/famous33"><img src="https://img.shields.io/badge/TRYHACKME-TOP%201%25-0D1117?style=for-the-badge&logo=tryhackme&logoColor=00FF88" alt="TryHackMe"></a> <a href="https://app.letsdefend.io/user/Prasiddha-Pal"><img src="https://img.shields.io/badge/LETSDEFEND-SOC-0D1117?style=for-the-badge&logoColor=00D9FF" alt="LetsDefend"></a> <a href="https://www.linkedin.com/in/prasiddha-pal"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF" alt="LinkedIn"></a> <a href="https://medium.com/@prasiddhapal"><img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF" alt="Medium"></a>
+<br><br>
+
+<img
+  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=for-the-badge"
+  alt="Profile views"
+/>
 
 </div>
 
