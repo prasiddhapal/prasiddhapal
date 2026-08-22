@@ -217,6 +217,8 @@ Security scanning and analysis tooling.
 
 ---
 
+---
+
 ## 📊 GITHUB COMMAND CENTRE
 
 <div align="center">
@@ -233,11 +235,20 @@ Security scanning and analysis tooling.
 ### 🐍 CONTRIBUTION ACTIVITY
 
 <a href="https://github.com/prasiddhapal">
+
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg">
-<img src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg" width="100%" alt="GitHub contribution activity">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg">
+  <img
+    src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg"
+    width="100%"
+    alt="GitHub contribution activity">
 </picture>
+
 </a>
 
 <br><br>
@@ -245,17 +256,20 @@ Security scanning and analysis tooling.
 ### 🛡️ SECURITY DEVELOPMENT ACTIVITY
 
 | 🔐 SECURITY LABS | 🔎 DETECTION | 🎯 HUNTING | 🐍 AUTOMATION |
-| :---: | :---: | :---: | :---: |
+| :--------------: | :----------: | :--------: | :-----------: |
 | **30+** | **Splunk / SIEM** | **ACTIVE** | **Python / AI** |
 
 <br>
 
 <a href="https://github.com/prasiddhapal">
-<img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-00D9FF?style=for-the-badge&logo=github&logoColor=07111F" alt="View all repositories">
+<img
+  src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-00D9FF?style=for-the-badge&logo=github&logoColor=07111F"
+  alt="View all repositories">
 </a>
 
 </div>
 
+---
 ---
 
 ## 🎯 CURRENT FOCUS
