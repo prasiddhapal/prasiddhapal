@@ -13,7 +13,7 @@
 
 <br>
 
-<a href="https://github.com/prasiddhapal"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"></a> <a href="https://tryhackme.com/p/famous33"><img src="https://img.shields.io/badge/TRYHACKME-TOP%201%25-0D1117?style=for-the-badge&logo=tryhackme&logoColor=00FF88" alt="TryHackMe"></a> <a href="https://app.letsdefend.io/user/Prasiddha-Pal"><img src="https://img.shields.io/badge/LETSDEFEND-SOC-0D1117?style=for-the-badge&logoColor=00D9FF" alt="LetsDefend"></a> <a href="https://www.linkedin.com/in/prasiddha-pal"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF" alt="LinkedIn"></a> <a href="https://medium.com/@prasiddhapal"><img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF" alt="Medium"></a>
+<a href="https://github.com/prasiddhapal"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF"></a> <a href="https://tryhackme.com/p/famous33"><img src="https://img.shields.io/badge/TRYHACKME-TOP%201%25-0D1117?style=for-the-badge&logo=tryhackme&logoColor=00FF88"></a> <a href="https://app.letsdefend.io/user/Prasiddha-Pal"><img src="https://img.shields.io/badge/LETSDEFEND-SOC-0D1117?style=for-the-badge&logoColor=00D9FF"></a> <a href="https://www.linkedin.com/in/prasiddha-pal"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF"></a> <a href="https://medium.com/@prasiddhapal"><img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF"></a>
 
 </div>
 
@@ -51,7 +51,7 @@
 └─────────────────────────────────────────┘
 ```
 
-I build practical cybersecurity investigations, detection workflows, and security tooling with an evidence-driven approach.
+I build practical cybersecurity investigations, detections, and security tooling with an evidence-driven approach.
 
 </td>
 
@@ -83,6 +83,8 @@ RESPONSE
 
 ---
 
+## 🔥 PLATFORM COMMAND CENTRE
+
 ## 🌐 SECURITY PLATFORMS
 
 <div align="center">
@@ -96,7 +98,6 @@ RESPONSE
 </a>
 
 </div>
-
 ---
 
 ## 🧰 SECURITY TOOLKIT
@@ -114,8 +115,6 @@ RESPONSE
 ![Git](https://img.shields.io/badge/Git-07111F?style=for-the-badge\&logo=git\&logoColor=FF6B35)
 ![FastAPI](https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge\&logo=fastapi\&logoColor=00FF88)
 
-<br>
-
 `SOC` `Threat Hunting` `Detection Engineering` `Incident Response` `IOC Analysis` `Security Automation` `AI/ML`
 
 </div>
@@ -130,7 +129,7 @@ RESPONSE
 <img
   src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/main/assets/soc-pipeline.svg"
   width="100%"
-  alt="SOC Investigation Pipeline"
+  alt="Animated SOC Investigation Pipeline"
 />
 </a>
 
@@ -146,11 +145,11 @@ RESPONSE
 
 ### 🔐 SOC Journey
 
-**30+ practical security investigations**
+**28+ practical security investigations**
 
-`Linux` · `Windows` · `Networking` · `SIEM` · `Splunk`
+`Linux` · `Windows` · `Network` · `SIEM` · `Splunk`
 
-Hands-on investigations covering alert triage, authentication analysis, threat hunting, phishing investigations, Windows event analysis, IOC analysis, and detection engineering.
+Alert triage, authentication analysis, threat hunting, phishing investigation, Windows event analysis, and detection engineering.
 
 </td>
 
@@ -158,7 +157,7 @@ Hands-on investigations covering alert triage, authentication analysis, threat h
 
 ### 🤖 AI Fraud Detection
 
-Machine-learning-based analysis of financial transactions to identify potentially fraudulent activity.
+Machine-learning-based financial transaction analysis.
 
 `Python` · `Jupyter` · `Machine Learning`
 
@@ -170,9 +169,9 @@ Machine-learning-based analysis of financial transactions to identify potentiall
 
 ### 🛡️ SentinelShield
 
-Security-focused intrusion detection and web protection project designed around identifying and responding to suspicious activity.
+Security-focused intrusion detection and web protection.
 
-`Security` · `Detection` · `Web Security`
+`Security` · `Detection` · `Web`
 
 </td>
 
@@ -180,7 +179,7 @@ Security-focused intrusion detection and web protection project designed around 
 
 ### 🌐 SecScan
 
-Security scanning and analysis tooling built for practical security assessment workflows.
+Security scanning and analysis tooling.
 
 `Python` · `FastAPI` · `Security`
 
@@ -198,8 +197,7 @@ Security scanning and analysis tooling built for practical security assessment w
 <img
   src="https://github-readme-streak-stats.herokuapp.com/?user=prasiddhapal&theme=dark&hide_border=true&background=07111F&ring=00D9FF&fire=FF4D00&currStreakLabel=00FF88&sideLabels=C9D1D9&dates=8B949E"
   width="75%"
-  alt="GitHub Contribution Streak"
-/>
+  alt="GitHub Contribution Streak">
 </a>
 
 <br><br>
@@ -222,7 +220,6 @@ Security scanning and analysis tooling built for practical security assessment w
     width="100%"
     alt="GitHub contribution activity"
   />
-
 </picture>
 
 </a>
@@ -240,8 +237,7 @@ Security scanning and analysis tooling built for practical security assessment w
 <a href="https://github.com/prasiddhapal">
 <img
   src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-00D9FF?style=for-the-badge&logo=github&logoColor=07111F"
-  alt="View all repositories"
-/>
+  alt="View all repositories">
 </a>
 
 </div>
@@ -253,9 +249,7 @@ Security scanning and analysis tooling built for practical security assessment w
 <div align="center">
 
 `SOC INVESTIGATION` → `THREAT HUNTING` → `DETECTION ENGINEERING`
-
 ↓
-
 `CONTEXT ENRICHMENT` → `RISK ANALYSIS` → `SECURITY AUTOMATION`
 
 </div>
