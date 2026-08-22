@@ -3,209 +3,290 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 import yaml
 
 
+# ============================================================
+# PATHS
+# ============================================================
+
 ROOT = Path(__file__).resolve().parents[1]
 
+CONFIG_FILE = ROOT / "profile.yml"
+DATA_FILE = ROOT / "data" / "platform_stats.json"
+README_FILE = ROOT / "README.md"
+
+
+# ============================================================
+# LOAD CONFIG
+# ============================================================
+
 CONFIG = yaml.safe_load(
-    (ROOT / "profile.yml").read_text()
+    CONFIG_FILE.read_text(encoding="utf-8")
 )
 
-DATA_FILE = ROOT / "data/platform_stats.json"
-README = ROOT / "README.md"
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 "
-        "(compatible; PrasiddhaProfileUpdater/1.0)"
-    )
-}
+if not CONFIG:
+    raise SystemExit("profile.yml is empty or invalid.")
 
 
-def fetch(url):
-    response = requests.get(
-        url,
-        headers=HEADERS,
-        timeout=30
-    )
-    response.raise_for_status()
-    return response.text
+# ============================================================
+# HELPERS
+# ============================================================
+
+def today():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def first_match(text, patterns):
-    clean = re.sub(r"\s+", " ", text)
-
-    for pattern in patterns:
-        match = re.search(pattern, clean, re.I)
-
-        if match:
-            return match.group(1)
-
-    return None
-
-
-def extract_tryhackme_stats(html):
-
-    streak = first_match(
-        html,
-        [
-            r"(\d{1,5})\s*(?:day|days)\s*streak",
-            r"streak[^0-9]{0,60}(\d{1,5})",
-        ]
+def now_utc():
+    return datetime.now(timezone.utc).strftime(
+        "%Y-%m-%d %H:%M UTC"
     )
 
-    rank = first_match(
-        html,
-        [
-            r"(top\s*\d+\s*%)",
-            r"(top\s*\d+%)",
-        ]
-    )
 
-    return streak, rank
-
-
-def update_tryhackme(old, url):
+def load_json():
+    if not DATA_FILE.exists():
+        return {
+            "tryhackme": {},
+            "letsdefend": {}
+        }
 
     try:
-
-        html = fetch(url)
-
-        streak, rank = extract_tryhackme_stats(html)
-
-        if streak:
-            old["streak"] = streak
-
-        if rank:
-            old["rank"] = rank.upper()
-
-        old["ok"] = bool(streak or rank)
-
-        old["updated"] = datetime.now(
-            timezone.utc
-        ).strftime("%Y-%m-%d")
-
-    except Exception as exc:
-
-        old["ok"] = False
-
-        old["error"] = str(exc)[:180]
-
-    return old
+        return json.loads(
+            DATA_FILE.read_text(encoding="utf-8")
+        )
+    except json.JSONDecodeError:
+        return {
+            "tryhackme": {},
+            "letsdefend": {}
+        }
 
 
-data = json.loads(
-    DATA_FILE.read_text()
-)
+def save_json(data):
+    DATA_FILE.write_text(
+        json.dumps(data, indent=2) + "\n",
+        encoding="utf-8"
+    )
 
 
-# --------------------------------------------------
-# TRYHACKME
-# --------------------------------------------------
-
-data["tryhackme"] = update_tryhackme(
-    data["tryhackme"],
-    CONFIG["platforms"]["tryhackme"]["profile_url"]
-)
+def get_platform_config(name):
+    platforms = CONFIG.get("platforms", {})
+    return platforms.get(name, {})
 
 
-# --------------------------------------------------
-# LETSDEFEND
+# ============================================================
+# PLATFORM VALUES
 #
-# Kept from automatic scraping.
-# LetsDefend's official terms prohibit automated
-# access, and the streak is not exposed through a
-# documented public API.
-# --------------------------------------------------
+# These values come from profile.yml.
+#
+# This avoids scraping platforms that do not provide a
+# documented public API for this purpose.
+# ============================================================
 
-letsdefend = data["letsdefend"]
+def build_platform_stats(old, platform_name):
 
-letsdefend.setdefault(
-    "streak",
-    "—"
+    config = get_platform_config(platform_name)
+
+    result = dict(old or {})
+
+    # --------------------------------------------------------
+    # Preserve the previous successful value
+    # --------------------------------------------------------
+
+    if "streak" not in result:
+        result["streak"] = "—"
+
+    if "rank" not in result:
+        result["rank"] = "—"
+
+    # --------------------------------------------------------
+    # Optional values from profile.yml
+    # --------------------------------------------------------
+
+    if config.get("streak") is not None:
+        result["streak"] = str(
+            config["streak"]
+        )
+
+    if config.get("rank") is not None:
+        result["rank"] = str(
+            config["rank"]
+        )
+
+    result["profile_url"] = config.get(
+        "profile_url",
+        ""
+    )
+
+    result["source"] = "profile.yml"
+
+    result["updated"] = today()
+
+    result["ok"] = (
+        result["streak"] != "—"
+        or result["rank"] != "—"
+    )
+
+    return result
+
+
+# ============================================================
+# LOAD EXISTING DATA
+# ============================================================
+
+data = load_json()
+
+
+# ============================================================
+# TRYHACKME
+# ============================================================
+
+data["tryhackme"] = build_platform_stats(
+    data.get("tryhackme", {}),
+    "tryhackme"
 )
 
-letsdefend.setdefault(
-    "rank",
-    "SOC"
-)
 
-letsdefend["source"] = "manual"
-letsdefend["updated"] = datetime.now(
-    timezone.utc
-).strftime("%Y-%m-%d")
+# ============================================================
+# LETSDEFEND
+# ============================================================
 
-data["letsdefend"] = letsdefend
-
-
-# --------------------------------------------------
-# SAVE DATA
-# --------------------------------------------------
-
-DATA_FILE.write_text(
-    json.dumps(data, indent=2) + "\n"
+data["letsdefend"] = build_platform_stats(
+    data.get("letsdefend", {}),
+    "letsdefend"
 )
 
 
-# --------------------------------------------------
-# README LIVE BLOCK
-# --------------------------------------------------
+# ============================================================
+# SAVE PLATFORM DATA
+# ============================================================
 
-t = data["tryhackme"]
-l = data["letsdefend"]
+save_json(data)
 
-thm_url = CONFIG[
-    "platforms"
-]["tryhackme"]["profile_url"]
 
-ld_url = CONFIG[
-    "platforms"
-]["letsdefend"]["profile_url"]
+# ============================================================
+# VALUES FOR README
+# ============================================================
 
-updated = datetime.now(
-    timezone.utc
-).strftime("%Y-%m-%d %H:%M UTC")
+thm = data["tryhackme"]
+ld = data["letsdefend"]
 
+thm_url = thm.get(
+    "profile_url",
+    "https://tryhackme.com/p/famous33"
+)
+
+ld_url = ld.get(
+    "profile_url",
+    "https://app.letsdefend.io/user/PrasiddhaPal"
+)
+
+
+# ============================================================
+# README LIVE PLATFORM BLOCK
+# ============================================================
 
 block = f"""<!-- LIVE_PLATFORM_STATS:START -->
+
 <div align="center">
 
-| 🟢 TRYHACKME | 🔵 LETSDEFEND |
-|:---:|:---:|
-| **🔥 {t.get("streak", "—")} DAY STREAK** | **🔥 {l.get("streak", "—")} DAY STREAK** |
-| **{t.get("rank", "—")}** | **{l.get("rank", "SOC")}** |
-| [PROFILE]({thm_url}) | [PROFILE]({ld_url}) |
+## 🔥 PLATFORM COMMAND CENTRE
 
-`TRYHACKME AUTO-REFRESHED • LETSDEFEND VALUE STORED SAFELY • {updated}`
+<table>
+<tr>
+
+<td align="center">
+
+### 🟢 TRYHACKME
+
+🔥 **{thm.get("streak", "—")} DAY STREAK**
+
+🏆 **{thm.get("rank", "—")}**
+
+<a href="{thm_url}">
+PROFILE
+</a>
+
+</td>
+
+<td align="center">
+
+### 🔵 LETSDEFEND
+
+🔥 **{ld.get("streak", "—")} DAY STREAK**
+
+🛡️ **{ld.get("rank", "SOC")}**
+
+<a href="{ld_url}">
+PROFILE
+</a>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+`PLATFORM DATA • LAST UPDATED {now_utc()}`
 
 </div>
+
 <!-- LIVE_PLATFORM_STATS:END -->"""
 
 
-text = README.read_text()
+# ============================================================
+# UPDATE README
+# ============================================================
 
-pattern = (
-    r"<!-- LIVE_PLATFORM_STATS:START -->"
-    r".*?"
-    r"<!-- LIVE_PLATFORM_STATS:END -->"
+if not README_FILE.exists():
+    raise SystemExit("README.md was not found.")
+
+
+text = README_FILE.read_text(
+    encoding="utf-8"
 )
 
-new_text, count = re.subn(
-    pattern,
+
+pattern = re.compile(
+    r"<!-- LIVE_PLATFORM_STATS:START -->"
+    r".*?"
+    r"<!-- LIVE_PLATFORM_STATS:END -->",
+    re.S
+)
+
+
+new_text, count = pattern.subn(
     block,
-    text,
-    flags=re.S
+    text
 )
 
 
 if count != 1:
     raise SystemExit(
-        "README live-stat markers were not found exactly once."
+        "README live-stat markers must exist exactly once."
     )
 
 
-README.write_text(new_text)
+README_FILE.write_text(
+    new_text,
+    encoding="utf-8"
+)
 
-print("Cyber profile stats refreshed successfully.")
+
+print("======================================")
+print(" CYBER PROFILE UPDATE")
+print("======================================")
+print(
+    f"TryHackMe : "
+    f"{thm.get('streak', '—')} days | "
+    f"{thm.get('rank', '—')}"
+)
+print(
+    f"LetsDefend: "
+    f"{ld.get('streak', '—')} days | "
+    f"{ld.get('rank', 'SOC')}"
+)
+print(
+    f"Updated   : {now_utc()}"
+)
+print("======================================")
