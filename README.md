@@ -32,10 +32,13 @@
 
 <br>
 
-<code>// command centre online</code>
-&nbsp;&nbsp;
 <img
-  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=flat-square"
+  src="https://img.shields.io/badge/SYSTEM-COMMAND%20CENTRE%20ONLINE-07111F?style=for-the-badge&labelColor=0D1117&color=00FF88"
+  alt="Command Centre Online"
+/>
+&nbsp;
+<img
+  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=for-the-badge"
   alt="Profile views"
 />
 
