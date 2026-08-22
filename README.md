@@ -102,7 +102,27 @@ RESPONSE
 </a>
 
 </div>
----
+
+## 🧰 SECURITY TOOLKIT
+
+<div align="center">
+
+![Linux](https://img.shields.io/badge/Linux-07111F?style=for-the-badge&logo=linux&logoColor=00FF88)
+![Windows](https://img.shields.io/badge/Windows-07111F?style=for-the-badge&logo=windows&logoColor=00D9FF)
+![Splunk](https://img.shields.io/badge/Splunk-07111F?style=for-the-badge&logo=splunk&logoColor=00D9FF)
+![SIEM](https://img.shields.io/badge/SIEM-07111F?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-07111F?style=for-the-badge&logo=python&logoColor=FFD43B)
+![PowerShell](https://img.shields.io/badge/PowerShell-07111F?style=for-the-badge&logo=powershell&logoColor=00D9FF)
+![Wireshark](https://img.shields.io/badge/Wireshark-07111F?style=for-the-badge&logo=wireshark&logoColor=00D9FF)
+![Nmap](https://img.shields.io/badge/Nmap-07111F?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-07111F?style=for-the-badge&logo=git&logoColor=FF6B35)
+![FastAPI](https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge&logo=fastapi&logoColor=00FF88)
+
+<br>
+
+`SOC` · `Threat Hunting` · `Detection Engineering` · `Incident Response` · `IOC Analysis` · `Security Automation` · `AI/ML`
+
+</div>
 
 ## 🧰 SECURITY TOOLKIT
 
