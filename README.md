@@ -23,7 +23,7 @@
 
 | 🟢 SOC INVESTIGATION | 🔵 THREAT HUNTING | 🟣 DETECTION ENGINEERING | 🟠 SECURITY AUTOMATION |
 | :------------------: | :---------------: | :----------------------: | :--------------------: |
-|     **28+ CASES**    |     **ACTIVE**    |     **SPLUNK / SIEM**    |     **PYTHON / AI**    |
+|     **30+ CASES**    |     **ACTIVE**    |     **SPLUNK / SIEM**    |     **PYTHON / AI**    |
 
 </div>
 
@@ -85,23 +85,19 @@ RESPONSE
 
 ## 🔥 PLATFORM COMMAND CENTRE
 
-<!-- LIVE_PLATFORM_STATS:START -->
+## 🌐 SECURITY PLATFORMS
 
 <div align="center">
 
-|                 🟢 TRYHACKME                |                      🔵 LETSDEFEND                      |
-| :-----------------------------------------: | :-----------------------------------------------------: |
-|            **🔥 345 DAY STREAK**            |                   **🔥 — DAY STREAK**                   |
-|                  **TOP 1%**                 |                         **SOC**                         |
-| [PROFILE](https://tryhackme.com/p/famous33) | [PROFILE](https://app.letsdefend.io/user/Prasiddha-Pal) |
+<a href="https://tryhackme.com/p/famous33">
+<img src="./assets/tryhackme-card.svg" width="48%" alt="TryHackMe">
+</a>
 
-`LIVE DATA • AUTOMATICALLY REFRESHED BY GITHUB ACTIONS`
+<a href="https://app.letsdefend.io/user/PrasiddhaPal">
+<img src="./assets/letsdefend-card.svg" width="48%" alt="LetsDefend">
+</a>
 
 </div>
-<!-- LIVE_PLATFORM_STATS:END -->
-
-> The updater keeps the last successful value if a platform changes its public page or temporarily blocks automated requests.
-
 ---
 
 ## 🧰 SECURITY TOOLKIT
