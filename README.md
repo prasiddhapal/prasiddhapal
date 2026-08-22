@@ -29,19 +29,18 @@
 <a href="https://medium.com/@prasiddhapal">
 <img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF" alt="Medium">
 </a>
-
-<br><br>
-
-<code>● COMMAND CENTRE ONLINE</code>
-&nbsp;&nbsp;
 <img
-  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=flat-square"
+  src="https://img.shields.io/badge/●%20COMMAND%20CENTRE-ONLINE-07111F?style=for-the-badge&labelColor=07111F&color=00FF88"
+  alt="Command Centre Online"
+/>
+&nbsp;
+<img
+  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=for-the-badge"
   alt="Profile views"
 />
 
-</div>
+<br><br>
 
----
 
 <div align="center">
 
