@@ -30,23 +30,25 @@
 <img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF" alt="Medium">
 </a>
 
-<br><br>
+<br>
 
-<code>● COMMAND CENTRE ONLINE</code>
+<code>// command centre online</code>
 &nbsp;&nbsp;
 <img
   src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=flat-square"
   alt="Profile views"
 />
 
+<br><br>
+
 </div>
 
----
+
 
 <div align="center">
 
 | 🟢 SOC INVESTIGATION | 🔵 THREAT HUNTING | 🟣 DETECTION ENGINEERING | 🟠 SECURITY AUTOMATION |
-| :---: | :---: | :---: | :---: |
+| :------------------: | :---------------: | :----------------------: | :--------------------: |
 | **30+ CASES** | **ACTIVE** | **SPLUNK / SIEM** | **PYTHON / AI** |
 
 </div>
