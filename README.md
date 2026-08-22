@@ -57,22 +57,22 @@ I build practical cybersecurity investigations, detections, and security tooling
 
 <td width="45%" align="center">
 
-### 🧠 SECURITY MINDSET
+<td width="42%" align="center">
+
+### 🧠 ANALYST APPROACH
 
 ```text
-ALERT
-  ↓
-TRIAGE
-  ↓
-EVIDENCE
-  ↓
-CORRELATION
-  ↓
-DETECTION
-  ↓
-RISK REVIEW
-  ↓
-RESPONSE
+OBSERVE
+   ↓
+QUESTION
+   ↓
+COLLECT
+   ↓
+CORRELATE
+   ↓
+VALIDATE
+   ↓
+DECIDE
 ```
 
 **Evidence → Context → Risk → Decision**
