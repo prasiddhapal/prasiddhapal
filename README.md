@@ -30,28 +30,23 @@
 <img src="https://img.shields.io/badge/MEDIUM-WRITEUPS-0D1117?style=for-the-badge&logo=medium&logoColor=FFFFFF" alt="Medium">
 </a>
 
-<br>
+<br><br>
 
+<code>● COMMAND CENTRE ONLINE</code>
+&nbsp;&nbsp;
 <img
-  src="https://img.shields.io/badge/SYSTEM-COMMAND%20CENTRE%20ONLINE-07111F?style=for-the-badge&labelColor=0D1117&color=00FF88"
-  alt="Command Centre Online"
-/>
-&nbsp;
-<img
-  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=for-the-badge"
+  src="https://komarev.com/ghpvc/?username=prasiddhapal&label=PROFILE%20VIEWS&color=00D9FF&style=flat-square"
   alt="Profile views"
 />
 
-<br><br>
-
 </div>
 
-
+---
 
 <div align="center">
 
 | 🟢 SOC INVESTIGATION | 🔵 THREAT HUNTING | 🟣 DETECTION ENGINEERING | 🟠 SECURITY AUTOMATION |
-| :------------------: | :---------------: | :----------------------: | :--------------------: |
+| :---: | :---: | :---: | :---: |
 | **30+ CASES** | **ACTIVE** | **SPLUNK / SIEM** | **PYTHON / AI** |
 
 </div>
@@ -217,17 +212,12 @@ Security scanning and analysis tooling.
 
 ---
 
----
-
 ## 📊 GITHUB COMMAND CENTRE
 
 <div align="center">
 
 <a href="https://github.com/prasiddhapal">
-<img
-  src="https://streak-stats.demolab.com/?user=prasiddhapal&theme=dark&hide_border=true&background=07111F&ring=00D9FF&fire=FF4D00&currStreakLabel=00FF88&sideLabels=C9D1D9&dates=8B949E"
-  width="75%"
-  alt="GitHub Contribution Streak">
+<img src="https://github-readme-streak-stats.demolab.com/?user=prasiddhapal&theme=dark&hide_border=true&background=07111F&ring=00D9FF&fire=FF4D00&currStreakLabel=00FF88&sideLabels=C9D1D9&dates=8B949E" width="75%" alt="GitHub Contribution Streak">
 </a>
 
 <br><br>
@@ -235,20 +225,11 @@ Security scanning and analysis tooling.
 ### 🐍 CONTRIBUTION ACTIVITY
 
 <a href="https://github.com/prasiddhapal">
-
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg">
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg">
-  <img
-    src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg"
-    width="100%"
-    alt="GitHub contribution activity">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg">
+<img src="https://raw.githubusercontent.com/prasiddhapal/prasiddhapal/output/github-snake.svg" width="100%" alt="GitHub contribution activity">
 </picture>
-
 </a>
 
 <br><br>
@@ -256,20 +237,17 @@ Security scanning and analysis tooling.
 ### 🛡️ SECURITY DEVELOPMENT ACTIVITY
 
 | 🔐 SECURITY LABS | 🔎 DETECTION | 🎯 HUNTING | 🐍 AUTOMATION |
-| :--------------: | :----------: | :--------: | :-----------: |
+| :---: | :---: | :---: | :---: |
 | **30+** | **Splunk / SIEM** | **ACTIVE** | **Python / AI** |
 
 <br>
 
 <a href="https://github.com/prasiddhapal">
-<img
-  src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-00D9FF?style=for-the-badge&logo=github&logoColor=07111F"
-  alt="View all repositories">
+<img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-00D9FF?style=for-the-badge&logo=github&logoColor=07111F" alt="View all repositories">
 </a>
 
 </div>
 
----
 ---
 
 ## 🎯 CURRENT FOCUS
