@@ -21,7 +21,7 @@
   alt="Profile views"
 />
 
-<br><br>
+<br>
 
 </div>
 
