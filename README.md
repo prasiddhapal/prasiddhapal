@@ -215,15 +215,7 @@ Security scanning and analysis tooling.
 <div align="center">
 
 ### 🐍 CONTRIBUTION ACTIVITY
-### 🔥 GITHUB STREAK
 
-<a href="https://github.com/prasiddhapal">
-  <img
-    src="https://streak-stats.demolab.com/?user=prasiddhapal&theme=dark&hide_border=true&background=07111F&ring=00D9FF&fire=FF4D00&currStreakLabel=00FF88&sideLabels=C9D1D9&dates=8B949E"
-    width="75%"
-    alt="GitHub Streak"
-  />
-</a>
 
 <a href="https://github.com/prasiddhapal">
 <picture>
